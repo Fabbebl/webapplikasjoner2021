@@ -1,4 +1,4 @@
-const users = require("./util.js");
+const users = require("util.js");
 
 // TODO: Hent HTML #id med getElementById
 const searchInput = document.getElementById("name");
