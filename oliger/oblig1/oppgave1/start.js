@@ -1,4 +1,4 @@
-import "./styles.css";
+import "styles.css";
 
 // Statisk tekst som brukes til å søke i
 const text =
