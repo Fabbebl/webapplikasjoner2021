@@ -1,21 +1,81 @@
 "questions": [
     {
-      "title": "Spørsmål kommer her",
+      "title": "Hva er forskjellen på manuelle og automatiserte tester?",
       "answers": [
-        { "answere": "Svaralternativ 1" },
+        { "answere": "Manuelle tester er tester vi må lage selv og så kjøre koden, automatiserte tester er å gå gjennom et program og se etter en liste med feil." },
         {
-          "answere": "Svaralternativ 2"
+          "answere": "Manuelle tester skrives inn i koden, automatiserte tester opprettes automatisk i koden."
         },
         {
-          "answere": "Svaralternativ 3"
+          "answere": "Manuelle og automatiserte tester er to navn på samme type tester."
         },
         {
-          "answere": "Svaralternativ 4",
+          "answere": "Manuelle tester gjør vi fysisk ved å f.eks. teste input-felt, automatiserte tester gjør datamaskinen for oss.",
           "correct": true
         }
       ],
       "helper": {
-        "text": "Hjelpetekst kommer her"
+        "text": "Manuelle tester gjør vi ved å gå inn og kjøre kode selv, automatiserte tester gjør dette for oss."
+      }
+    }
+    
+    {
+      "title": "Hva er asynkron testing?",
+      "answers": [
+        { "answere": "Testing av flere verdier eller funksjoner på en gang." },
+        {
+          "answere": "Testing av av tester for å se om de gir samme svar."
+        },
+        {
+          "answere": "Testing av verdier som ligger i en asynkron rekkefølge, f.eks. i en array."
+        },
+        {
+          "answere": "Testing av kode som ikke svarer med en gang.",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Synkron testing vil være å teste kode som svarer med en gang. Asynkron testing vil da være det motsatte."
+      }
+    }
+
+{
+      "title": "Hva er mocking?",
+      "answers": [
+        { "answere": "Mocking er å finne feil i kode og legge ut feilene på nett så andre kan se og lære." },
+        {
+          "answere": "Mocking er et begrep brukt for å beskrive kode som stoppes før det skal kjøre for å stoppe eventuelle feil."
+        },
+        {
+          "answere": "Mocking er å bruke testing til feil formål. F.eks. endre farge på tekst."
+        },
+        {
+          "answere": "Mocking er å bytte ut funksjonaliteten med noe annet i en test, f.eks. på grunn av et API som kan ta lang tid på å respondere.",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Mocking brukes til å gjøre endringer i en test."
+      }
+    }
+
+{
+      "title": "Hvorfor er testing viktig?",
+      "answers": [
+        { "answere": "Testing fanger opp den minste endring som skulle skje med resultatet hvis vi gjør noe med koden." },
+        {
+          "answere": "Testing gjør jobben vår med å finne eventuelle feil enklere."
+        },
+        {
+          "answere": "Testing kan ta tid å sette opp, men sparer oss for mye tid når det er ferdig."
+        },
+        {
+          "answere": "Alle ovenfor",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Testing er effektivt og hjelper oss veldig med å finne eventuelle feil eller mangler som skulle oppstå."
       }
     }
   ]
