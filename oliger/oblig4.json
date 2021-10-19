@@ -1,0 +1,21 @@
+"questions": [
+    {
+      "title": "Spørsmål kommer her",
+      "answers": [
+        { "answere": "Svaralternativ 1" },
+        {
+          "answere": "Svaralternativ 2"
+        },
+        {
+          "answere": "Svaralternativ 3"
+        },
+        {
+          "answere": "Svaralternativ 4",
+          "correct": true
+        }
+      ],
+      "helper": {
+        "text": "Hjelpetekst kommer her"
+      }
+    }
+  ]
